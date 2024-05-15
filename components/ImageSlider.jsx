@@ -22,12 +22,12 @@ const ImageSlider = () => {
         <Carousel
             data={sliderImage}
             loop={true}
-            autoplay={true}
+            autoplay={false}
             renderItem={ItemCard}
             hasParallaxImages={true}
             sliderWidth={wp(100)}
             firstItem={0}
-            autoplayInterval={3000}
+            autoplayInterval={2000}
             itemWidth={wp(100) - 70}
             slideStyle={{ display: 'flex', alignItems: 'center' }}
         />

@@ -17,7 +17,7 @@ const home = () => {
                     <Text style={{ fontSize: hp(4) }} className="font-bold tracking-wider text-white">WELCOME TO</Text>
                     <Text style={{ fontSize: hp(3.5) }} className="font-bold tracking-wider text-purple-500">FAR FROM WEAK</Text>
                 </View>
-                <View className="flex justify-center items-center space-y-4">
+                <View className="flex justify-center items-center space-y-3">
                     <FontAwesome name="user-circle" size={hp(3)} color="#fff" />
                     <View className="bg-neutral-200 rounded-full flex justify-center items-center"
                     >
